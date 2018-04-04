@@ -6,10 +6,10 @@
     header( 'Content-type: application/json' );
 
 
-    $to             = 'mohamed.abdullatief92@gmail.com'; //put your email here
-    $email_template = 'simple.html';  // will find it on email-templates/ directory
+    $to             = 'mohamed.abdullatief92@gmail.com';
+    $email_template = 'simple.html';
 
-    $subject    = "SUBJECT";
+    $subject    = "MailFrom Get";
     $email      = strip_tags($_POST['email']);
     $name       = strip_tags($_POST['name']);
     $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
